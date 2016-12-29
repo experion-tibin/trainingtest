@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+<div class="container" >
+<center>
+<h2>Login</h2>
+	<form id="loginform" name="loginform" method="post">
+		<input type="text" id="email" name="email" placeholder="Enter email" onblur="ValidateEmail(this.value);" ><br>
+		<input type="password" id="pword" name="pword" placeholder="Enter password"><br>
+		<input type="button" id="login" name="login" value="Login" onclick="validate()"><br>
+	</form>
+</center>
+</div>
+<script type="text/javascript" src="script/login.js"></script>
+</body>
+</html>
